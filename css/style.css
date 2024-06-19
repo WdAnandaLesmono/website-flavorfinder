@@ -193,16 +193,19 @@
 
 /* About */
 .about {
-    background-image: url('../images/background-hp.png');
+    width: 100%;
+    background: none;
     background-size: cover;
     background-position: center;
     text-align: center;
     align-items: center;
     justify-content: center;
-    padding-left: 48px;
-    padding-right: 48px;
-    padding-top: 72px;
-    border-radius: 58px;
+}
+
+.about.container {
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 #about {
@@ -224,6 +227,7 @@
     align-items: center;
     justify-content: center;
     padding-bottom: 64px;
+    font-size: 1.2rem;
 }
 
 /* product */
@@ -363,7 +367,7 @@
     font-weight: 700;
     text-align: left;
     line-height: 33px;
-    color: #ACD793;
+    color: #fff;
     text-transform: uppercase;
     transition: 0.7s ease;
     display: none;
@@ -559,7 +563,7 @@
         font-weight: 700;
         text-align: left;
         line-height: 4px;
-        color: #ACD793;
+        color: #fff;
         text-transform: uppercase;
         transition: 0.7s ease;
         display: none;
@@ -636,7 +640,7 @@
         font-weight: 700;
         text-align: left;
         line-height: 4px;
-        color: #ACD793;
+        color: #fff;
         text-transform: uppercase;
         transition: 0.7s ease;
         display: none;
